@@ -15,7 +15,7 @@ employeeController.list = function(req, res) {
   });
 };
 
-// Show employee by id
+// Show employee by id hfjfhjhf
 employeeController.show = function(req, res) {
   Employee.findOne({_id: req.params.id}).exec(function (err, employee) {
     if (err) {
